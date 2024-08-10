@@ -1,0 +1,116 @@
+/* styles.css */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #c08497;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#about {
+    background-color: #fdf4f3;
+    text-align: center;
+}
+
+#skills, #portfolio, #testimonials, #contact {
+    background-color: #fff;
+    text-align: left;
+}
+
+.skill, .project {
+    background-color: #f4e1e6;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill h3, .project h3 {
+    margin: 0;
+    color: #c08497;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #c08497;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a66784;
+}
+
+.social a {
+    color: #c08497;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+}
